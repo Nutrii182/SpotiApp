@@ -13,8 +13,7 @@ export class HomeComponent {
 
   constructor(private spotify: SpotifyService) {
     spotify.getNewReleases().subscribe((data: any) => {
-      this.newRealeses = data.albums.items;
-      console.log(this.newRealeses);
+      this.newRealeses = data;
     });
   }
 
