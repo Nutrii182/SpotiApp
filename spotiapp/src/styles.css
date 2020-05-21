@@ -9,8 +9,22 @@ hr {
     border-color: white;
 }
 
+th,
+td {
+    color: white;
+}
+
+.imageAlbum {
+    height: 120px;
+    width: 120px;
+}
+
 .puntero {
     cursor: pointer;
+}
+
+.contPrin {
+    padding-left: 10%;
 }
 
 .img-circle {

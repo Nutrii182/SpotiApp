@@ -14,6 +14,12 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 // Routes
 import { ROUTES } from './app.routes';
 
+// Pipes
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
+
 // Services
 // import { SpotifyService } from './services/spotify.service';
 
@@ -24,6 +30,10 @@ import { ROUTES } from './app.routes';
     SearchComponent,
     ArtistaComponent,
     NavbarComponent,
+    NoimagePipe,
+    TarjetasComponent,
+    LoadingComponent,
+    DomseguroPipe,
   ],
   imports: [
     BrowserModule,
